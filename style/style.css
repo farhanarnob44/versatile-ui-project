@@ -1,0 +1,85 @@
+/* shared styles are here  */
+*{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* shared styles ends here  */
+/* nav section styles starts here  */
+.nav-links{
+    text-decoration: none;
+    display: flex;
+    height: 45px;
+    width: 465px ;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 0px; */
+    padding: 0px;
+  
+}
+.navbar{
+    background-color: none;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 57px 190px 32px 190px;
+    /* margin-top: 57px; */
+
+}
+*nav{
+margin-top: 57px;
+}
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    /* padding-left: 47px; */
+    /* display: flex;
+    justify-content: space-between; */
+    /* margin-right: 65px; */
+    align-items: center;
+    /* color: white; */
+    
+}
+.Home-button , .Other-nav-button{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: white;
+}
+.Home-button{
+    border: 1px solid orangered;
+    background-color: orangered;
+    padding: 8px 20px 8px 20px;
+    width: 92px;
+height: 38px;
+border-radius: 46px;
+margin-left: 4px;
+/* margin-top: 4px;
+margin-bottom: 4px; */
+}
+.Other-nav-button{
+    margin-right: 4px;
+}
+/* nav section styles ends here  */
+/* .header-class{
+    
+} */
+/* .header-class{
+    /* background-color: black;
+    background-color: rgba(119, 119, 119, 0); */
+    /* background-color: rgb(17, 17, 17); */
+    /* margin-top: -55.5px; */
+ */
+.banner-main-section{
+    background-color: rgb(17, 17, 17);
+}
+.brand-name{
+    height: 43px;
+    width: 132px;
+    color: orangered;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
