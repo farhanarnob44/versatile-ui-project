@@ -333,6 +333,196 @@ color: rgba(255, 255, 255, 0.5);
 margin-top: 20PX;
 
 }
+.bmi-calculator-section{
+    height: 480px;
+    width: 1530px;
+    background-color:  rgb(34, 34, 34);
+    margin-bottom: 100px;
+}
+/* bmi calculator sectoin starts here  */
+
+.bmi-calculator-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+.table-section{
+    margin-top: 52px;
+    margin-left: 187px;
+    /* border: 1px solid red; */
+}
+.table-title{
+    font-size: 28px;
+font-weight: 900;
+color: white;
+max-width: 443px;
+height: 34px;
+}
+.main-table{
+    margin-top: 52px;
+    width: 310px;
+height: 216px;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+}
+.border-color{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.calculate-bmi{
+    max-width: 577px;
+height: 386px;
+margin-top: 49px;
+margin-right: 189px;
+}
+.calculate-bmi-title{
+    width: 443px;
+height: 34px;
+font-size: 28px;
+font-weight: 900;
+color: white;
+}
+.calculate-bmi-description{
+    max-width: 577px;
+height: 48px;
+font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+margin-top: 14px;
+
+}
+.fields{
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+width: 282.5px;
+height: 48px;
+color: white;
+padding: 3px;
+margin-right: 12px;
+margin-bottom: 12px;
+}
+.field{
+    display: flex;
+}
+.big-field{
+    border-radius: 8px;
+
+background: rgba(255, 255, 255, 0.1);
+width: 568px;
+height: 48px;
+color: white;
+padding: 3px;
+margin-right: 12px;
+margin-bottom: 12px;
+}
+/* bmi section ends here  */
+
+/* meet our team section starts here */
+.meet-our-team-title{
+    width: 353px;
+height: 58px;
+font-size: 48px;
+font-weight: 900;
+text-align: center;
+color: white;
+margin: 0 auto;
+
+}
+.meet-our-team-description{
+    font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+margin-top: 14PX;
+text-align: center;
+}
+.meet-our-team-images{
+    height: 595px;
+    width: 1060px;
+    border-radius: 18px;
+margin-top: 170px;
+background: rgb(34, 34, 34);
+margin-bottom: 40px;
+margin: 0 auto;
+padding: 20px;
+padding-left: 30px;
+}
+.meet-our-team-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.meet-team-image{
+    width: 326.67px;
+height: 272px;
+border-radius: 18px;
+margin: 0 auto;
+
+/* background: rgba(0, 0, 0, 0.2),url(image); */
+}
+.img-details{
+    position: top 30px;
+    color: white;
+    margin-top: -60px;
+    margin-left: 40px;
+}
+.fit-image{
+    object-fit: none;
+object-position: 65% 0%;
+}
+
+/* our team section ends here  */
+
+/* footer starts here  */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    max-width: 1059px;
+height: 249px;
+margin: 0 auto;
+margin-top: 66px;
+/* margin-bottom: 75px; */
+}
+.fitness-final{
+    width: 443px;
+height: 176px;
+}
+.final-description{
+    max-width: 443px;
+height: 72px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin-top: 20px;
+}
+.final-title{
+    font-size: 32px;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.get-started1{
+    width: 181px;
+height: 249px;
+}
+.get-start-details{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+
+}
+hr{
+    margin: 50px auto;
+    width: 1060px;
+    height: 0px;
+}
+.last-line{
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
 
 /* responsive section starts here */
 @media screen and (max-width: 576px){
