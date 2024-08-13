@@ -35,10 +35,6 @@ margin-top: 57px;
 .nav-item{
     text-decoration: none;
     list-style: none;
-    /* padding-left: 47px; */
-    /* display: flex;
-    justify-content: space-between; */
-    /* margin-right: 65px; */
     align-items: center;
     /* color: white; */
     
@@ -74,14 +70,14 @@ margin-bottom: 4px; */
 } */
 .header-class{
     background-color: rgb(17, 17, 17);
-    /* height: 715px;
-    width: 1440px; */
+    height: 750px;
+    width: 1530px;
 }
 
 /* banner section starts here  */
 .brand-name{
     height: 43px;
-    width: 132px;
+    max-width: 132px;
     color: orangered;
     font-size: 2.2rem;
     font-weight: 800;
@@ -89,12 +85,14 @@ margin-bottom: 4px; */
 .banner{
     display: flex;
     justify-content: space-between;
+    /* max-width: 1440px;
+    height:581px; */
 }
 .banner-writing-section{
     height: 440px;
     width: 520px;
     margin-left: 190px;
-    margin-top: 96px;
+    margin-top: 60px;
 }
 .banner-title{
 color: white;
@@ -139,4 +137,236 @@ width: 520px;
 }
 .banner-image-section{
     display: flex;
+    justify-content: space-around;
+    gap: -500px;
+}
+.videos-tutorial{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 96px;
+    max-width: 206px;
+    border-radius: 12px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: -120px ;
+    margin-top: -156px;
+    position: top 30px;
+    position: left -300px;
+    
+}
+.red-circle{
+    border: 1px solid orangered;
+    max-width: 40px;
+height: 40px;
+background-color: orangered;
+/* margin: 28px 143px 28px 23px; */
+border-radius: 100%;
+}
+.videos-tutorial-title{
+    margin-top: 20px 63px 52px 75px;
+    color: white;
+    font-size:1.5rem ;
+    font-weight: 900;
+}
+.red-circle-area{
+    margin: 28px 8px 28px 23px;
+}
+.videos-tutorial-description{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.workout-videos{
+    max-width:200px;
+height: 98px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+margin-top: 130px;
+}
+.workout-title{
+    margin: 17px 53px 5px 24px;
+    color: white;
+    font-size: 2.2rem;
+font-weight: 900;
+}
+.workout-description{
+    color: rgba(255, 255, 255, 0.65);
+font-size: 13px;
+font-weight: 400;
+margin-left: 24px;
+}
+body{
+    background-color: black;
+}
+/* banner section ends here  */
+
+/* run section starts here  */
+.habit-main-class{
+    max-width: 1044px;
+    height: 452px;
+    align-items: center;
+    margin: 0 auto;
+    background-color:black;
+    margin-top: 100px;
+}
+.habit-images-details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: center;
+    margin-top: 58px;
+    margin-bottom: 30px;
+    
+}
+.habit-details{
+    align-items: center;
+    text-align: center;
+    width: 671px;
+}
+.habit-section-title{
+     height: 58px;
+    /* width: 476px; */
+    align-items: center;
+    text-align: center;
+    /* margin-left: 98px; */
+    font-size: 48px;
+font-weight: 900;
+color: white;
+}
+.habit-section-description{
+    font-size: 14px;
+font-weight: 400;
+max-width: 671px;
+height: 48px;
+margin-left: 187px;
+margin-top: 30px;
+color: rgba(255, 255, 255, 0.5);
+}
+.habit-images{
+    height: 180px;
+    width: 180px;
+    border: 0.1px solid black;
+    border-radius: 100%;
+}
+.habit-title{
+    /* width: 93px; */
+height: 22px;
+font-size: 1.1rem;
+font-weight: 600;
+color: white;
+margin-top: 30px;
+margin-bottom: 6px;
+}
+.habit-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+font-weight: 400;
+}
+
+/* run section starts here  */
+.run-main-section{
+    height: 371px;
+    width: 1060px;
+    margin: 0 auto;
+    border-radius: 18px;
+margin-top: 170px;
+background: rgb(34, 34, 34);
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+.run-writing-section{
+    max-width: 443px;
+height: 290px;
+align-items: center;
+margin: 41px 165px 54px 54px;
+}
+.run-image-section{
+    object-fit: none;
+    object-position: 65% 28%;
+    height: 312px;
+    width: 366px;
+    border-radius: 18px;
+    margin-top: 15px;
+    margin-right: 32px;
+}
+.run-title{
+    width: 443px;
+height: 116px;
+font-size: 48px;
+font-weight: 900;
+color: white;
+margin-bottom: 14px;
+}
+.run-details{
+    width: 443px;
+height: 72px;
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+margin-bottom: 24px;
+}
+/* run section ends here  */
+
+
+/* BMI section starts here  */
+
+.bmi-main-class{
+    margin-top:200px;
+    color: white;
+    max-width: 671px;
+height: 120px;
+margin: 0 auto;
+margin-bottom: 50PX;
+}
+.bmi-title{
+    width: 353px;
+height: 58px;
+font-size: 48px;
+font-weight: 900;
+}
+.bmi-description{
+    font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+margin-top: 20PX;
+
+}
+
+/* responsive section starts here */
+@media screen and (max-width: 576px){
+.nav-links{
+        display: block;
+    }
+    .header-class{
+        display: flex;
+        flex-direction: column;
+        margin-left: -180px;
+        height: auto;
+        /* width: auto; */
+    }
+    .banner, .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-image-section{
+        display: flex;
+    }
+    .habit-images-details{
+        grid-template-columns: repeat(1 ,1fr);
+        gap: 30px;
+    }
+    .habit-section-description{
+        margin-left: 100px;
+        /* flex-direction: column; */
+        /* width: auto; */
+        position: left 30px;
+    }
+    .habit-details{
+        width: auto;
+        margin: 0 auto;
+        position: left 50px;
+    }
 }
